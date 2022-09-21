@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "wx62ec7e4240ea17e1",
+  APP_ID: "",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "abc7e5ad604bfa7bd4216a1615b7f960",
+  APP_SECRET: "",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -87,7 +87,7 @@ export const config = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // // 在一起的日子
-        // {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2022-05-01"},
         // // 结婚纪念日
         // {"keyword": "marry_day", date: "2022-09-09"},
         // // 退伍日
